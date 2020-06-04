@@ -1,0 +1,14 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=fluffclub
+resources:
+- ingress.yaml
+- nginx.yaml
+- ftps.yaml
+- wordpress.yaml
+- mysql.yaml
+- phpmyadmin.yaml
+- influxdb.yaml
+- telegraf.yaml
+- grafana.yaml
